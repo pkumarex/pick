@@ -1,11 +1,12 @@
 package crypto
 
 import (
-	"crypto/aes"
-	"crypto/cipher"
 	"crypto/rand"
 	"encoding/json"
 	"fmt"
+
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/aes"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 
 	"github.com/bndw/pick/crypto/pbkdf2"
 	"github.com/bndw/pick/crypto/scrypt"
