@@ -28,7 +28,6 @@ install_hooks:
 dependencies:
 	@$(shell \
 		cd $(GOVENDOR) ; \
-		rm -rf src ; \
 		find . -mindepth 2 -maxdepth 2 -path ./src -prune -o -type d -print | \
 		sed -e 's/.\///' | \
 		xargs -I{} sh -c ' \
@@ -39,7 +38,7 @@ dependencies:
 	@mkdir -p $(shell dirname $(GOVENDOR)/src/$(GOPKG))
 	@ln -sfn ../../../.. $(GOVENDOR)/src/$(GOPKG)
 
-build: install_hooks dependencies
+build: install_hooks 
 	GOPATH=$(GOPATH) go build -o bin/pick .
 
 test: dependencies

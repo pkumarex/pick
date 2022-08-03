@@ -61,6 +61,6 @@ require (
 )
 
 replace (
-	github.com/intel-innersource/cloud-native-skc => ../applications.security.isecl.cloud-native-skc
-	github.com/intel-secl/intel-secl/v5 => ../applications.security.isecl.intel-secl
+	github.com/intel-innersource/cloud-native-skc => github.com/pkumarex/applications.security.isecl.cloud-native-skc v1.0/feature/rsa_develop
+	github.com/intel-secl/intel-secl/v5 => github.com/intel-innersource/applications.security.isecl.intel-secl/v5 v5.0/develop
 )
