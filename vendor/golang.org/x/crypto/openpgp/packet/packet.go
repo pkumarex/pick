@@ -8,9 +8,9 @@ package packet // import "golang.org/x/crypto/openpgp/packet"
 
 import (
 	"bufio"
-	"crypto/aes"
-	"crypto/cipher"
 	"crypto/des"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/aes"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 	"golang.org/x/crypto/cast5"
 	"golang.org/x/crypto/openpgp/errors"
 	"io"

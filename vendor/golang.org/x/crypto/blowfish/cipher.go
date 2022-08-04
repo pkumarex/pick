@@ -56,7 +56,7 @@ func NewSaltedCipher(key, salt []byte) (*Cipher, error) {
 
 // BlockSize returns the Blowfish block size, 8 bytes.
 // It is necessary to satisfy the Block interface in the
-// package "crypto/cipher".
+// package "github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher".
 func (c *Cipher) BlockSize() int { return BlockSize }
 
 // Encrypt encrypts the 8-byte buffer src using the key k

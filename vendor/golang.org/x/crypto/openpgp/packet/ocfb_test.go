@@ -6,8 +6,8 @@ package packet
 
 import (
 	"bytes"
-	"crypto/aes"
 	"crypto/rand"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/aes"
 	"testing"
 )
 

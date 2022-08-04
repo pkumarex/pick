@@ -6,8 +6,8 @@ package xts
 
 import (
 	"bytes"
-	"crypto/aes"
 	"encoding/hex"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/aes"
 	"testing"
 )
 

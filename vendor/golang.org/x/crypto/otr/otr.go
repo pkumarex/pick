@@ -8,8 +8,6 @@ package otr // import "golang.org/x/crypto/otr"
 
 import (
 	"bytes"
-	"crypto/aes"
-	"crypto/cipher"
 	"crypto/dsa"
 	"crypto/hmac"
 	"crypto/rand"
@@ -19,6 +17,8 @@ import (
 	"encoding/base64"
 	"encoding/hex"
 	"errors"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/aes"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 	"hash"
 	"io"
 	"math/big"

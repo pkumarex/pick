@@ -9,9 +9,9 @@
 package tea
 
 import (
-	"crypto/cipher"
 	"encoding/binary"
 	"errors"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 )
 
 const (
@@ -61,7 +61,7 @@ func NewCipherWithRounds(key []byte, rounds int) (cipher.Block, error) {
 }
 
 // BlockSize returns the TEA block size, which is eight bytes. It is necessary
-// to satisfy the Block interface in the package "crypto/cipher".
+// to satisfy the Block interface in the package "github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher".
 func (*tea) BlockSize() int {
 	return BlockSize
 }

@@ -2,8 +2,8 @@ package s3crypto
 
 import (
 	"bytes"
-	"crypto/aes"
-	"crypto/cipher"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/aes"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 	"io"
 )
 

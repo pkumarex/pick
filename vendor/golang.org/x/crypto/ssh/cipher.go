@@ -5,14 +5,14 @@
 package ssh
 
 import (
-	"crypto/aes"
-	"crypto/cipher"
 	"crypto/des"
 	"crypto/rc4"
 	"crypto/subtle"
 	"encoding/binary"
 	"errors"
 	"fmt"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/aes"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 	"hash"
 	"io"
 	"io/ioutil"

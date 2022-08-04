@@ -12,8 +12,8 @@ This code is licensed under the MIT license.
 package rc2
 
 import (
-	"crypto/cipher"
 	"encoding/binary"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 )
 
 // The rc2 block size in bytes

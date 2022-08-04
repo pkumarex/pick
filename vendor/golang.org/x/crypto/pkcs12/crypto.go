@@ -6,11 +6,11 @@ package pkcs12
 
 import (
 	"bytes"
-	"crypto/cipher"
 	"crypto/des"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 
 	"golang.org/x/crypto/pkcs12/internal/rc2"
 )

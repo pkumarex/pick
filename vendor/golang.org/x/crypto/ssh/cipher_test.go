@@ -7,8 +7,8 @@ package ssh
 import (
 	"bytes"
 	"crypto"
-	"crypto/aes"
 	"crypto/rand"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/aes"
 	"testing"
 )
 

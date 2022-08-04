@@ -6,8 +6,8 @@
 package chacha20poly1305 // import "golang.org/x/crypto/chacha20poly1305"
 
 import (
-	"crypto/cipher"
 	"errors"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 )
 
 const (

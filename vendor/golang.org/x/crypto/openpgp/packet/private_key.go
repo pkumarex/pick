@@ -7,11 +7,11 @@ package packet
 import (
 	"bytes"
 	"crypto"
-	"crypto/cipher"
 	"crypto/dsa"
 	"crypto/ecdsa"
 	"crypto/rsa"
 	"crypto/sha1"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 	"io"
 	"io/ioutil"
 	"math/big"

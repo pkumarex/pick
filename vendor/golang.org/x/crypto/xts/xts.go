@@ -22,9 +22,9 @@
 package xts // import "golang.org/x/crypto/xts"
 
 import (
-	"crypto/cipher"
 	"encoding/binary"
 	"errors"
+	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 )
 
 // Cipher contains an expanded key structure. It doesn't contain mutable state
