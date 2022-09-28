@@ -1,2 +1,3 @@
 bin/
 vendor/src
+go.sum

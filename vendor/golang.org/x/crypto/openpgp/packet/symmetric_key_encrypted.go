@@ -6,7 +6,7 @@ package packet
 
 import (
 	"bytes"
-	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
+	"crypto/cipher"
 	"io"
 	"strconv"
 

@@ -6,11 +6,11 @@ package pkcs12
 
 import (
 	"bytes"
+	"crypto/cipher"
 	"crypto/des"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"
-	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
 
 	"golang.org/x/crypto/pkcs12/internal/rc2"
 )
@@ -124,7 +124,7 @@ func pbDecrypt(info decryptable, password []byte) (decrypted []byte, err error) 
 	return
 }
 
-// decryptable abstracts a object that contains ciphertext.
+// decryptable abstracts an object that contains ciphertext.
 type decryptable interface {
 	Algorithm() pkix.AlgorithmIdentifier
 	Data() []byte

@@ -1,18 +1,17 @@
-module examples/v1
+module github.com/bndw/pick
 
 go 1.18
 
 require (
 	github.com/atotto/clipboard v0.0.0-20160219034421-bb272b845f11
 	github.com/aws/aws-sdk-go v1.10.22
-	github.com/bndw/pick v0.8.0
 	github.com/fatih/color v1.13.0
 	github.com/intel-innersource/cloud-native-skc v0.0.0-00010101000000-000000000000
 	github.com/leonklingele/randomstring v0.0.0-20170203204119-fd6b15ed1c60
 	github.com/marcsauter/single v0.0.0-20180317142253-3f6ac6766709
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/pkg/term v0.0.0-20160705081919-b1f72af2d630
-	github.com/spf13/cobra v0.0.0-20170731170427-b26b538f6930
+	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.10.1
 	golang.leonklingele.de/securetemp v1.0.0

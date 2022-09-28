@@ -7,7 +7,7 @@
 package packet
 
 import (
-	"github.com/intel-innersource/cloud-native-skc/pkg/skcclient/cryptoskc/cipher"
+	"crypto/cipher"
 )
 
 type ocfbEncrypter struct {
